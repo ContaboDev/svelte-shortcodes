@@ -9,7 +9,7 @@ Svelte component of your choice.
 ## Installation
 
 ```sh
-yarn add --dev svelte-shortcodes # or npm i --save-dev svelte-shortcodes
+yarn add --dev svelte-shortcodes-contabo # or npm i --save-dev svelte-shortcodes-contabo
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ html tag names will be replaced.
 
 ```
 <script>
-  import { Shortcodes } from "svelte-shortcodes";
+  import { Shortcodes } from "svelte-shortcodes-contabo";
   import Heading from "./Heading.svelte";
   import ResponsiveImage from "./ResponsiveImage.svelte";
 
